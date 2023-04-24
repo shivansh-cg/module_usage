@@ -1,5 +1,5 @@
 {
-  "name": "framework-for-building-front-and-back-end-libraries",
+  "name": "moudle_usage",
   "version": "1.1.0",
   "description": "A framework for bulding a library for both web and node js targets",
   "scripts": {
@@ -49,6 +49,8 @@
     "webpack-node-externals": "^2.5.2"
   },
   "dependencies": {
+    "@cognitivegarage/flow-runner": "github:cognitivegarage-ai/flow-runner#ts",
+    "module1": "file:../module1",
     "node-fetch": "^2.6.1"
   }
 }

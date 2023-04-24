@@ -20,6 +20,11 @@ const generalConfig = {
         use: 'ts-loader',
         exclude: /node_modules/,
       },
+      {
+        loader: 'babel-loader',
+        test: '/\.(js|jsx)$/',
+        exclude: /node_modules/
+      }
     ],
   },
   resolve: {
